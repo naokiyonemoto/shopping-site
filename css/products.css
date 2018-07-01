@@ -1,0 +1,178 @@
+@charset "UTF-8";
+#main .products_items {
+  background-color: #ffffff;
+  padding: 40px 60px; }
+  @media (max-width: 549px) {
+    #main .products_items {
+      padding: 10px;
+      margin-bottom: 20px; } }
+  #main .products_items .item_code {
+    font-size: 10px;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Verdana, "ＭＳ Ｐゴシック", sans-serif;
+    color: #a6a6a6;
+    text-align: right; }
+    @media (max-width: 549px) {
+      #main .products_items .item_code {
+        text-align: left; } }
+  #main .products_items .item_code {
+    border-bottom: solid 1px #e3c8cf;
+    padding-bottom: 30px; }
+    @media (max-width: 549px) {
+      #main .products_items .item_code {
+        border-bottom: solid 1px #e3c8cf;
+        margin-bottom: 15px; } }
+    #main .products_items .item_code p {
+      margin: 0; }
+  #main .products_items h2 {
+    float: left;
+    font-size: 18px;
+    font-size: 1.8rem;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Verdana, "ＭＳ Ｐゴシック", sans-serif;
+    font-weight: bold;
+    margin-bottom: 0;
+    letter-spacing: 2px; }
+    @media (max-width: 549px) {
+      #main .products_items h2 {
+        padding-top: 20px;
+        float: none; } }
+  #main .products_items .items_slide {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: solid 1px #e3c8cf;
+    padding-top: 10px;
+    margin-bottom: 20px; }
+    @media (max-width: 549px) {
+      #main .products_items .items_slide {
+        display: block; } }
+    #main .products_items .items_slide #display_img {
+      width: 71.0%;
+      box-sizing: border-box; }
+      @media (max-width: 549px) {
+        #main .products_items .items_slide #display_img {
+          width: 100%; } }
+      #main .products_items .items_slide #display_img img {
+        width: 100%; }
+    #main .products_items .items_slide .sub_items {
+      width: 27.7%;
+      box-sizing: border-box; }
+      @media (max-width: 549px) {
+        #main .products_items .items_slide .sub_items {
+          width: 100%; } }
+      #main .products_items .items_slide .sub_items #list_img {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between; }
+        @media (max-width: 549px) {
+          #main .products_items .items_slide .sub_items #list_img {
+            margin: 5px; } }
+        #main .products_items .items_slide .sub_items #list_img li {
+          list-style: none;
+          width: 48%;
+          margin-bottom: 0; }
+          @media (max-width: 549px) {
+            #main .products_items .items_slide .sub_items #list_img li {
+              width: 19%; } }
+          #main .products_items .items_slide .sub_items #list_img li img {
+            width: 100%;
+            cursor: pointer; }
+  #main .products_items .color_size {
+    width: 100%;
+    margin-bottom: 20px; }
+    #main .products_items .color_size .color_table {
+      width: 100%; }
+      #main .products_items .color_size .color_table td {
+        padding: 0;
+        text-align: center;
+        border: 1px solid #e8e4da; }
+        #main .products_items .color_size .color_table td .size_btn {
+          width: 16px;
+          height: 16px;
+          margin: 0;
+          border: 1px solid #e8e4da;
+          background-color: #ffffff;
+          border-radius: 0; }
+      #main .products_items .color_size .color_table th {
+        padding: 10px;
+        background-color: #f9f9f5;
+        font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Verdana, "ＭＳ Ｐゴシック", sans-serif;
+        color: #887f69;
+        text-align: center;
+        border: 1px solid #e8e4da; }
+  #main .products_items .add_cart_box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border-bottom: solid 1px #e3c8cf;
+    margin-bottom: 20px; }
+    @media (max-width: 549px) {
+      #main .products_items .add_cart_box {
+        display: block;
+        border-bottom: none; } }
+    #main .products_items .add_cart_box .price {
+      font-style: oblique; }
+      #main .products_items .add_cart_box .price .price_box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px 0;
+        border-bottom: 1px solid #e8e4da;
+        border-top: solid 1px #e3c8cf;
+        width: 120%; }
+        @media (max-width: 549px) {
+          #main .products_items .add_cart_box .price .price_box {
+            width: 100%; } }
+        #main .products_items .add_cart_box .price .price_box .price_img {
+          flex: 1; }
+        #main .products_items .add_cart_box .price .price_box .price_alia {
+          flex: 1; }
+          #main .products_items .add_cart_box .price .price_box .price_alia p {
+            text-align: center;
+            margin-bottom: 0; }
+          #main .products_items .add_cart_box .price .price_box .price_alia span {
+            color: #e91d6f;
+            font-size: 3rem;
+            font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Verdana, "ＭＳ Ｐゴシック", sans-serif; }
+      #main .products_items .add_cart_box .price .quantiry_box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 15px; }
+        #main .products_items .add_cart_box .price .quantiry_box .quantiry_img {
+          flex: 1; }
+        #main .products_items .add_cart_box .price .quantiry_box .quantiry_alia {
+          flex: 1; }
+          #main .products_items .add_cart_box .price .quantiry_box .quantiry_alia input {
+            Width: 90%;
+            border: solid 1px #e3c8cf;
+            border-radius: 0; }
+    #main .products_items .add_cart_box .to_cart {
+      text-align: center; }
+  #main .products_items .item_help h3 {
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Verdana, "ＭＳ Ｐゴシック", sans-serif;
+    color: #887f69;
+    font-size: 2rem;
+    font-weight: bold; }
+  #main .products_items .item_help p {
+    font-size: 1.5rem;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Verdana, "ＭＳ Ｐゴシック", sans-serif;
+    font-weight: bold; }
+  #main .products_items .item_help .item_pro_table {
+    width: 100%; }
+    #main .products_items .item_help .item_pro_table th {
+      text-align: center;
+      background-color: #f9f9f5;
+      font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Verdana, "ＭＳ Ｐゴシック", sans-serif;
+      color: #887f69;
+      border: 1px solid #e8e4da;
+      width: 33%;
+      padding: 10px; }
+    #main .products_items .item_help .item_pro_table td {
+      font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Verdana, "ＭＳ Ｐゴシック", sans-serif;
+      color: #887f69;
+      border: 1px solid #e8e4da;
+      padding: 10px; }
+
+/*# sourceMappingURL=products.css.map */
